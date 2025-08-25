@@ -1,0 +1,126 @@
+.jnvstars_wrapper {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.stars_title {
+  text-align: center;
+}
+.stars_title > h1 {
+  color: rgba(10, 75, 122, 1);
+  margin-bottom: 10px;
+}
+
+.stars_title > p {
+  color: rgba(98, 125, 152, 1);
+  font-size: 1.1rem;
+}
+
+.jnvstars_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  place-items: center;
+  margin-top: 5rem;
+}
+
+.jnv_students {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.img-bg > img {
+  width: 8rem;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.img-bg {
+  border: 5px solid #dfdfdf;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+.jnv_students > p {
+  text-align: center;
+}
+
+.std_marks {
+  color: rgba(10, 75, 122, 1);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.stdname {
+  color: rgba(72, 101, 129, 1);
+  font-size: 0.9rem;
+}
+
+.jnv_btn {
+  background: rgba(10, 75, 122, 1);
+  padding: 1rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 20%;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .jnv_btn {
+    width: 35%;
+    margin-top: 1rem;
+  }
+
+  .jnvstars_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .jnvstars_container ::-webkit-scrollbar {
+    width: 0.1rem;
+  }
+
+  .jnvstars_container ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .jnvstars_container ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+}
+
+@media (max-width: 500px) {
+  .jnv_btn {
+    width: 45%;
+    margin-top: 1rem;
+  }
+  .stars_title > h1 {
+    font-size: 1.5rem;
+  }
+
+  .stars_title > p {
+    color: rgba(98, 125, 152, 1);
+    font-size: 0.9rem;
+  }
+}

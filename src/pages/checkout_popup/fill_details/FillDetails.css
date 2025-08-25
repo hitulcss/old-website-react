@@ -1,0 +1,95 @@
+.filldetails_wrapper {
+  width: 100%;
+  display: flex;
+  margin-top: 0.7rem;
+  /* justify-content: space-between; */
+  gap: 0.5rem;
+}
+
+.filldetails_leftside {
+  width: 46%;
+}
+.filldetails_rightside {
+  width: 54%;
+}
+
+.filldetails_leftside,
+.filldetails_rightside {
+  border: 2px solid #d9d9d9;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 8px;
+}
+
+.yourdetails > h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.filldetails_rightside > h3 {
+  font-size: 17px;
+}
+
+.input_boxes {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input_boxes > label > input {
+  outline: none;
+  border: 2px solid #d9d9d9;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 600;
+}
+
+.input_boxes > label > textarea {
+  outline: none;
+  border: 2px solid #d9d9d9;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 600;
+}
+
+.order_detail {
+  margin-top: 0.5rem;
+}
+.order_detail > img {
+  width: 7rem;
+}
+
+@media (max-width: 768px) {
+  .filldetails_wrapper {
+    flex-direction: column;
+  }
+
+  .filldetails_leftside,
+  .filldetails_rightside {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .applyoffer_wrapper {
+    flex-direction: column;
+  }
+
+  .applyoffer_left_side {
+    width: 100%;
+  }
+}

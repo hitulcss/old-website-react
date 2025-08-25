@@ -1,0 +1,175 @@
+.host-yet-joined {
+  height: 60vh;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aquamarine;
+  padding: 20px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.two-way-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.two-way-container {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.chat-box-wrapper {
+  width: 30%;
+}
+
+.two-way-nav {
+  padding: 1.5rem 2rem;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.two-way-left {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+
+.two-way-left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 65%;
+}
+
+.twoway-tabs-wrapper {
+  margin-bottom: 2rem;
+}
+
+.tabs_main {
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  margin-top: -1rem;
+}
+
+.start-class {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  position: absolute;
+  right: 38%;
+  top: 18%;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 30px;
+}
+
+.modal-parent-div {
+  width: 100%;
+  height: 200vh;
+  background-color: rgba(211, 211, 211, 0.419);
+  position: fixed;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.start-class-inner-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.start-class-inner-div > button {
+  border: none;
+  background: transparent;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+  .two-way-container {
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+
+  .two-way-left-container,
+  .chat-box-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .two-way-container {
+    margin-top: 0;
+    padding: 0px;
+  }
+
+  .host-yet-joined {
+    height: 35vh;
+    border-radius: 0px;
+  }
+
+  .two-way-nav {
+    padding: 1.5rem 2rem;
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-content {
+    font-size: 0.9rem;
+  }
+
+  .two-way-icon {
+    font-size: 1rem;
+  }
+
+  .host-yet-joined > h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .nav-content {
+    font-size: 0.8rem;
+  }
+
+  .two-way-icon {
+    font-size: 0.9rem;
+  }
+}
+
+.exit-class-inner-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.exit-class-inner-div > button {
+  background-color: var(--primaryColor);
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.quiz_header {
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.quiz_header > .contentWrapper {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.arrow_icon_quiz {
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .quiz_header h2 {
+    font-size: 1.2rem;
+  }
+
+  .quiz_header > .contentWrapper {
+    gap: 1.5rem;
+  }
+
+  .arrow_icon_quiz {
+    font-size: 20px;
+  }
+}

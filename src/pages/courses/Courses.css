@@ -1,0 +1,296 @@
+.courses {
+  background: #f5e6fe;
+  width: 100%;
+}
+
+.courses_wrapper {
+  margin-top: 1rem;
+  display: flex;
+  margin-bottom: 5rem;
+  width: 100%;
+  padding: 0px 10px;
+  gap: 5rem;
+}
+
+.key_points {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.key_points > p {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.key_points_icon {
+  color: var(--primaryColor);
+  font-size: 1.5rem;
+}
+
+.courses_left_side {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.courses_left_side > h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.exams {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.exams_left_side,
+.exams_right_side {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 280px;
+  /* width: 100%; */
+}
+
+.exams_upper_side {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+  padding: 10px 18px;
+  gap: 0.7rem;
+  font-weight: 600;
+}
+
+.exams_lower_side {
+  background: #fedd3d;
+  border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -ms-border-radius: 0px 0px 10px 10px;
+  -o-border-radius: 0px 0px 10px 10px;
+  padding: 12px 20px;
+  font-weight: 600;
+}
+
+.course_right_side > img {
+  width: 100%;
+}
+
+.free_live_classess {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.FAQ_Section {
+  width: 100%;
+}
+
+.exam_prepration {
+  margin-top: 5rem;
+}
+
+.FAQ_Section {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .courses_wrapper {
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .course_right_side {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .course_right_side > img {
+    position: absolute;
+    width: 50%;
+    margin-top: 1.5rem;
+  }
+
+  .courses_left_side {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .new_test_series {
+    margin-top: 150px;
+  }
+
+  .exams_left_side,
+  .exams_right_side {
+    width: 250px;
+  }
+
+  .exams_upper_side {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+
+  .exams_upper_side > img {
+    width: 3rem;
+  }
+
+  .exams_lower_side {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses {
+    margin-bottom: 5rem;
+  }
+
+  .course_right_side {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .course_right_side > img {
+    position: absolute;
+    width: 60%;
+  }
+
+  .course_right_side {
+    margin-top: -3rem;
+  }
+
+  .courses_left_side {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .new_test_series {
+    margin-top: 150px;
+  }
+
+  .exams_left_side,
+  .exams_right_side {
+    width: 250px;
+  }
+
+  .exams_upper_side {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+
+  .exams_upper_side > img {
+    width: 3rem;
+  }
+
+  .exams_lower_side {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 564px) {
+  .course_right_side {
+    position: relative;
+  }
+
+  .course_right_side > img {
+    width: 40%;
+    margin-top: 20px;
+    top: 80px;
+    margin-bottom: 2rem;
+  }
+
+  .key_points {
+    gap: 1rem;
+  }
+
+  .key_points > p {
+    font-size: 0.8rem;
+  }
+
+  .course_right_side > img {
+    width: 100%;
+    margin-top: -2rem;
+  }
+
+  .courses_left_side {
+    gap: 2rem;
+  }
+
+  .courses_left_side > h1 {
+    font-size: 1.4rem;
+
+    font-weight: 600;
+  }
+
+  .exams {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .exams_left_side,
+  .exams_right_side {
+    flex: 1;
+    font-size: 12px;
+    text-align: center;
+    /* width: 100% !important; */
+  }
+
+  .key_points_icon {
+    font-size: 19px;
+  }
+
+  .top_courses {
+    margin-top: 5rem;
+  }
+
+  .exam_prepration {
+    /* height: 550px; */
+    /* height: auto; */
+  }
+}
+
+@media (max-width: 440px) {
+  .key_points {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .key_points > p {
+    font-size: 0.7rem;
+  }
+
+  .key_points_icon {
+    font-size: 1rem;
+  }
+
+  .course_right_side {
+    margin-top: -5rem;
+  }
+
+  .courses {
+    margin-bottom: 0rem;
+  }
+
+  .top_courses {
+    margin-top: 4rem;
+  }
+}

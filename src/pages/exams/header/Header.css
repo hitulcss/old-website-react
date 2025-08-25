@@ -1,0 +1,40 @@
+.exams_header {
+  background: #f5e6fe;
+}
+
+.exams_header_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.exam_header_left {
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+.exam_header_right > img {
+  width: 13rem;
+}
+
+.exam_header_title {
+  font-weight: 600;
+}
+
+.exam_header_para {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .exam_header_right {
+    display: none;
+  }
+
+  .exam_header_left {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}

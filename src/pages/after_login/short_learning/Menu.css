@@ -1,0 +1,25 @@
+.menu-item {
+  padding: 0px !important;
+}
+
+.menu-item-upper {
+  padding: 8px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.menu-item-lower div {
+  padding: 8px 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  color: var(--textGray);
+  cursor: pointer;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 0px !important;
+}

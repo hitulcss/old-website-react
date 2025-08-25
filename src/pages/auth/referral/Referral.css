@@ -1,0 +1,171 @@
+.referral_container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.referral_left {
+    flex: 1;
+    height: 99vh;
+}
+
+.referral_right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.referral_right_img {
+    width: 332px;
+    height: 332px;
+    flex-shrink: 0;
+}
+
+.referral_input {
+    width: 310px;
+    border-radius: 30px;
+    border: 2px solid #C6C6C6;
+
+    background: #FFF;
+}
+
+.referral_right_title {
+    color: #333;
+
+    font-family: Noto Sans Devanagari;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+
+
+.referral_right_input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.referral_forgetPassword {
+    margin-top: 20px;
+    color: var(--Primary--Color, rgba(150, 3, 242, 0.75));
+    font-family: Noto Sans Devanagari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.referral_right_button {
+    margin-top: 20px !important;
+    color: #FFF !important;
+    width: 310px !important;
+    height: 50px !important;
+    flex-shrink: 0 !important;
+    border-radius: 50px !important;
+    background: var(--Primary--Color, rgba(150, 3, 242, 0.75)) !important;
+}
+
+.referral_right_sign_in_with {
+    margin-top: 20px;
+    color: #A7A7A7;
+
+    font-family: Noto Sans Devanagari;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.referral_right_google {
+    margin-top: 20px;
+    border-radius: 34.084px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.referral_right_register {
+    margin-top: 20px;
+    color: #807E7E;
+
+    font-family: Noto Sans Devanagari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.referral_right_register span {
+    color: var(--Primary--Color, rgba(150, 3, 242, 0.75));
+    font-family: Noto Sans Devanagari;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width:400px) {
+    .referral_left {
+        display: none;
+    }
+
+    .referral_right {
+        align-items: center;
+        justify-content: center;
+        height: 99vh;
+    }
+
+    .referral_right_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .referral_right_img>img {
+        height: 80% !important;
+        width: 80% !important;
+    }
+
+    .referral_right_input_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .referral_input {
+        width: 90% !important;
+        height: 40px !important;
+        margin-bottom: 10px;
+    }
+
+    .referral_right_button {
+        width: 200px !important;
+    }
+
+    .referral_forgetPassword {
+        font-size: 14px;
+    }
+
+
+    .referral_right_sign_in_with {
+        font-size: 14px;
+    }
+
+
+
+    .referral_right_register {
+        font-size: 14px;
+    }
+
+    .referral_right_register span {
+        font-size: 14px;
+    }
+
+
+}

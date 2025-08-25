@@ -1,0 +1,29 @@
+.eligibility_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.eligibility_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.eligibility_container > p {
+  width: 80%;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.75);
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.eligibility_container > h1 {
+  color: rgba(10, 75, 122, 1);
+}
+
+@media (max-width: 768px) {
+  .eligibility_container > p {
+    width: 90%;
+  }
+}

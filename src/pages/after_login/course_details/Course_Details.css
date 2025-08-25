@@ -1,0 +1,59 @@
+.afterlogin_course_details_wrapper {
+  width: 100%;
+  padding: 1rem;
+}
+
+.afterlogin_coursedetails_upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.afterlogin_coursedetails_left {
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 5px 15px 0px;
+}
+
+.afterlogin_coursedetails_left > h1 {
+  padding: 1rem 2rem;
+}
+
+.courses_description {
+  padding: 2.5rem;
+}
+
+.courses_buy_button {
+  width: 100%;
+  padding: 10px;
+}
+
+.courses_buy_button > .buy_now {
+  padding: 14px 40px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  font-weight: 600;
+  background: var(--primaryColor);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .afterlogin_coursedetails_upper {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    gap: 3rem;
+    flex-direction: column;
+  }
+
+  .afterlogin_coursedetails_left {
+    width: 100%;
+  }
+}

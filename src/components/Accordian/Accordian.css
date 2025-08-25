@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .accordian_ques {
+    color: #333;
+    font-family: Quicksand;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .accordian_ans {
+    color: #626262;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 450px) {
+  .accordian_ques {
+    font-size: 13px;
+  }
+
+  .accordian_ans {
+    font-size: 12px;
+  }
+}

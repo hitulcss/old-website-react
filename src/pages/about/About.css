@@ -1,0 +1,26 @@
+.about_us_wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.about_left > p {
+  font-weight: 500;
+}
+
+.about_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

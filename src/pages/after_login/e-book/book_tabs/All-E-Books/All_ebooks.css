@@ -1,0 +1,158 @@
+.all_ebook_wrapper {
+  margin-top: 1rem;
+  min-height: 85vh;
+}
+
+.all_ebook_wrapper {
+  background: #fff;
+}
+
+.filter-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-opt,
+.ebook-filter {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  background: #fff;
+  border-radius: 20px;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--textGray);
+}
+
+.ebook-filter {
+  padding: 1rem;
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.all_ebook_lower {
+  margin-top: 1.5rem;
+}
+
+.booklist_filter_box {
+  margin-top: 1rem;
+  box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 280px;
+  padding-bottom: 1rem;
+  background: #fff;
+}
+
+.booklist_filter_box > h3 {
+  padding: 15px;
+  background: var(--primaryColor);
+  color: #fff;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.booklist_filter_box > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+
+  align-items: center;
+}
+
+.filter_btns {
+  margin-top: 10px;
+}
+
+.filter-reset-btn,
+.filter-spply-btn {
+  cursor: pointer;
+}
+
+.filter-reset-btn {
+  border: none;
+  outline: none;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.filter-spply-btn {
+  background: var(--primaryColor);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 2.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.all_ebook_upper {
+  position: relative;
+  z-index: 2;
+}
+
+.phone_filter {
+  position: absolute;
+  top: 20px;
+}
+
+@media (max-width: 768px) {
+  .all_ebook_lower {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .all_ebook_lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .all_ebook_upper {
+    gap: 10px;
+  }
+
+  .filter-opt,
+  .ebook-filter {
+    padding: 15px 1.5rem;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 0.8rem;
+  }
+
+  .filter-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .filter-container::-webkit-scrollbar {
+    width: 0.1rem;
+  }
+
+  .filter-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .filter-container::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+}
+
+@media (max-width: 350px) {
+  .filter-opt {
+    font-size: 0.7rem;
+  }
+
+  .ebook-filter {
+    padding: 14px;
+  }
+}

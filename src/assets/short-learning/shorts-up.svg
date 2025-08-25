@@ -1,0 +1,19 @@
+<svg width="161" height="53" viewBox="0 0 161 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_36_15740)">
+<rect x="160" width="52" height="160" rx="10" transform="rotate(89.8879 160 0)" fill="black" fill-opacity="0.17"/>
+</g>
+<mask id="mask0_36_15740" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="59" y="5" width="43" height="43">
+<rect x="101.092" y="47.1152" width="42" height="42" transform="rotate(179.888 101.092 47.1152)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_36_15740)">
+<path d="M80.0391 20.2073L90.5596 30.6867L88.1144 33.1415L80.0487 25.1073L72.0145 33.173L69.5597 30.7278L80.0391 20.2073Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_36_15740" x="-3.98044" y="-3.98047" width="168.062" height="60.2734" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_36_15740"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_36_15740" result="shape"/>
+</filter>
+</defs>
+</svg>

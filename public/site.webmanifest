@@ -1,0 +1,23 @@
+{
+    "name": "Student Dream Campus",
+    "short_name": "Student Dream Campus",
+    "description": "Student Dream Campus -> https://www.sdcampus.com",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#fff",
+    "background_color": "#000000",
+    "orientation": "portrait",
+    "version": "1.0.3",
+    "icons": [
+        {
+            "src": "/logo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

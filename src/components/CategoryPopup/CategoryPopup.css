@@ -1,0 +1,4 @@
+.selected-stream {
+  border: 1px solid var(--primaryColor) !important;
+  color: var(--primaryColor) !important;
+}

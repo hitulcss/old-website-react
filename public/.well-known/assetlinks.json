@@ -1,0 +1,26 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.sdcampus.app",
+            "sha256_cert_fingerprints": [
+                "38:1C:6D:6C:D0:CF:B1:C1:4C:B8:4E:BE:32:65:1C:75:EE:4F:FF:AE:99:8D:E7:F7:3B:C9:6B:1B:AB:87:00:8D"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.sdcampus.app",
+            "sha256_cert_fingerprints": [
+                "b4:f2:9a:20:23:76:f4:26:8a:3e:22:73:e0:68:12:d8:61:aa:a8:2a:05:6b:c5:d4:8a:2c:fe:0e:1b:c8:ba:07"
+            ]
+        }
+    }
+]

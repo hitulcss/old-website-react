@@ -1,0 +1,156 @@
+.coun-popup_wrapper {
+  width: 50rem;
+  position: relative;
+  background: #f2ecff;
+  border-radius: 5px;
+}
+
+.coun-popup_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.coun-popup-upper > h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.coun-popup-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.coun-popup-lower {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.coun-popup-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.star-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+}
+.coun-popup-left {
+  width: 70%;
+}
+.coun-popup-right > img {
+  width: 100%;
+}
+
+.coun-popup-right {
+  position: relative;
+}
+
+.coun-close-icon {
+  position: absolute;
+  top: -5%;
+  right: 0;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.coun-popup-lower > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px;
+  background: var(--primaryColor);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.coun-popup-lower > input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.coun-popup-upper > h2 {
+  font-size: 1.2rem;
+  color: var(--primaryColor);
+}
+
+.tnc {
+  font-size: 0.8rem;
+  color: var(--textGray);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .coun-popup_wrapper {
+    width: 100%;
+  }
+
+  .coun-popup-right {
+    display: none;
+  }
+
+  .coun-popup-left {
+    width: 100%;
+  }
+
+  .coun-popup_container {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .coun-popup_wrapper {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .coun-popup_wrapper {
+    width: 18rem;
+    height: 80%;
+  }
+
+  .coun-popup-upper > h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .coun-popup-upper > h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .coun-popup_container {
+    padding: 15px;
+  }
+
+  .coun-popup-left {
+    gap: 1rem;
+  }
+
+  .star-img {
+    width: 4rem;
+  }
+
+  .coun-popup-lower > button {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

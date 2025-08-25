@@ -1,0 +1,61 @@
+.courseinfo_wrapper {
+  padding: 1.5rem 1rem;
+}
+
+.tab_header {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tab_header_upper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.tab_header_upper {
+  box-shadow: 0px 1px 6px 1px rgba(17, 16, 16, 0.1);
+
+  background: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+}
+
+.tab_header_upper > h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 80%;
+}
+
+.tab_header_share_icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.multiple_tab_container {
+  border-radius: 0px 0px 10px 10px !important;
+  -webkit-border-radius: 0px 0px 10px 10px !important;
+  -moz-border-radius: 0px 0px 10px 10px !important;
+  -ms-border-radius: 0px 0px 10px 10px !important;
+  -o-border-radius: 0px 0px 10px 10px !important;
+}
+
+@media (max-width: 550px) {
+  .tab_header > h1 {
+    font-size: 1.2rem;
+  }
+
+  .tab_header_upper > h1 {
+    font-size: 1.3rem;
+  }
+}

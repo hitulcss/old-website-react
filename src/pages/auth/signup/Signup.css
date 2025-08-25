@@ -1,0 +1,142 @@
+/* .login_container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.login_left {
+  flex: 1;
+  height: 99.5vh;
+}
+
+.login_right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login_right_title {
+  color: #333 !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  margin-bottom: 20px !important;
+}
+
+.input_email {
+  display: flex !important;
+  width: 400px !important;
+  border-radius: 50px !important;
+  background: #fff !important;
+}
+
+.login_right_input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login_forgetPassword {
+  margin-top: 20px;
+  color: var(--Primary--Color, rgba(150, 3, 242, 0.75));
+  font-size: 15px !important;
+  font-weight: 600;
+  margin-left: 15rem;
+  cursor: pointer;
+}
+
+.login_right_button {
+  margin-top: 20px !important;
+  color: #fff !important;
+  width: 400px !important;
+  font-weight: 500 !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+  border-radius: 50px !important;
+  background: var(--Primary--Color, rgba(150, 3, 242, 0.75)) !important;
+  text-transform: capitalize !important;
+  font-size: 1.1rem !important;
+}
+
+.login_right_sign_in_with {
+  margin-top: 20px;
+  color: #a7a7a7;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login_right_google {
+  margin-top: 20px;
+  border-radius: 34.084px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.login_right_register {
+  margin-top: 20px;
+  color: #807e7e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login_right_register span {
+  color: var(--Primary--Color, rgba(150, 3, 242, 0.75));
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 550px) {
+  .login_left > img {
+    height: 45vh !important;
+  }
+
+  .login_left {
+    height: 45.5vh;
+  }
+
+  .login_container {
+    flex-direction: column !important;
+  }
+  .login_right {
+    align-items: center;
+    justify-content: center;
+ 
+  }
+}
+
+@media (max-width: 380px) {
+  .input_email {
+    width: 100% !important;
+    height: 60px !important;
+  }
+
+  .login_right_button_cont {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .login_right_button {
+    width: 80% !important;
+    margin-left: 2rem !important;
+  }
+
+  .login_forgetPassword {
+    font-size: 14px;
+  }
+
+  .login_right_sign_in_with {
+    font-size: 14px;
+  }
+
+  .login_right_register {
+    font-size: 14px;
+  }
+
+  .login_right_register span {
+    font-size: 14px;
+  }
+} */

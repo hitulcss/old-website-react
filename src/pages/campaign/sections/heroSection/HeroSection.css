@@ -1,0 +1,141 @@
+.hero_section_two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.border_text {
+  display: inline-flex;
+  width: 75%;
+  border-bottom: 2px solid orange;
+  text-align: "center";
+  font-size: 1.2rem !important;
+}
+
+.hero_section_left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  width: 40%;
+}
+
+.hero_section_left > h1 {
+  font-size: 3rem;
+  color: rgba(10, 75, 122, 1);
+  font-weight: bold !important;
+}
+
+.hero_section_left > p {
+  font-size: 1.4rem;
+  color: var(--textGray);
+  color: rgba(10, 75, 122, 1);
+}
+
+.hero_section_right > img {
+  width: 38rem;
+}
+
+.hero_section_right {
+  width: 50%;
+}
+
+.hero_section_left > button {
+  background: rgba(133, 48, 125, 0.08);
+  color: rgba(133, 48, 125, 1);
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .hero_section_right > img {
+    width: 30rem;
+  }
+
+  .hero_section_left > p {
+    font-size: 1.1rem;
+  }
+
+  .border_text {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_section_two {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .hero_section_left {
+    width: 100%;
+  }
+
+  .hero_section_left > .border_text {
+    width: 35%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .hero_section_right {
+    width: 100%;
+  }
+
+  .hero_section_right > img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_section_left > .border_text {
+    width: 48%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+
+  .hero_section_left > button {
+    margin-top: 0rem;
+  }
+
+  .hero_section_two {
+    margin-top: 2rem;
+  }
+
+  .hero_section_left > h1 {
+    font-size: 3rem;
+    color: rgba(10, 75, 122, 1);
+  }
+}
+
+@media (max-width: 350px) {
+  .hero_section_left > h1 {
+    font-size: 2.5rem;
+    color: rgba(10, 75, 122, 1);
+  }
+
+  .hero_section_left > p {
+    font-size: 1rem;
+  }
+
+  .hero_section_left > .border_text {
+    width: 65%;
+  }
+
+  .hero_section_left > button {
+    font-size: 0.8rem;
+  }
+}

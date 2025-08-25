@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  .list-item-button {
+    width: 500px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .list-item-button {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .list-item-button {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .list-item-button {
+    width: 290px !important;
+  }
+}

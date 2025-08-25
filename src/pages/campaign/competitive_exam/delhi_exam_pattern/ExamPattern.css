@@ -1,0 +1,77 @@
+.pattern_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.patter_container {
+  background: rgba(10, 75, 122, 0.04);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.exam_pattern_container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exam_pattern_table {
+  width: 100%;
+}
+
+.exam_pattern_container > h1 {
+  color: rgba(10, 75, 122, 1);
+}
+
+.exam_pattern_container > p {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.exam_pattern_container > ol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.exam_pattern_points {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 1rem;
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.patter_container > h1 {
+  color: rgba(10, 75, 122, 1);
+  text-align: center;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 3rem;
+  background: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  text-align: center;
+}
+
+.custom-table tr {
+  border-radius: 10px;
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+.custom-table > tbody {
+  margin-top: 2rem;
+}

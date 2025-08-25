@@ -1,0 +1,40 @@
+.terms_condition_wrapper {
+  margin-top: 2rem;
+  color: var(--textGray);
+  margin-bottom: 2rem;
+}
+
+.terms_condition_wrapper > div {
+  margin-top: 1.5rem;
+}
+
+.terms_condition_wrapper > div > h2 {
+  margin-bottom: 1rem;
+}
+
+.t_c_header > h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.terms_condition_wrapper > div > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.terms_condition_wrapper p {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.terms_condition_wrapper ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.terms_condition_wrapper ul li {
+  margin: 10px;
+  font-weight: 500;
+}

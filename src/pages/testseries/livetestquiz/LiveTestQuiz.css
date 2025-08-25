@@ -1,0 +1,99 @@
+.live_testseries_title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 33.6px;
+  /* 112% */
+}
+
+.live_testseries_card_container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.live_test_chips {
+  display: flex;
+  gap: 10px;
+}
+
+.live_test_chips_alltest {
+  display: flex;
+  /* width: 110.88px; */
+  height: 36.39px;
+  padding: 10px 24.8px 10.39px 25px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  /* color: white; */
+  color: var(--textGray);
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 60px;
+  /* background: var(--Primary--Color, rgba(150, 3, 242, 0.75)); */
+  /* color: #FFF; */
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  border: 2px solid #eaebec;
+  cursor: pointer;
+}
+
+.chip_title_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 868px) {
+  .chip_title_container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  
+
+  .live_testseries_card_container {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 467px) {
+  .live_testseries_title {
+    color: #000;
+    font-size: 18px !important;
+    font-weight: 600;
+    line-height: 33.6px;
+    /* margin-left: -40px !important; */
+    width: 100%;
+    /* 112% */
+  }
+
+  .live_test_chips {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: -40px !important; */
+    width: 100%;
+  }
+
+  .live_test_chips_alltest {
+    height: 30px;
+    /* width: 100%; */
+
+    font-size: 10px;
+  }
+
+  .live_testseries_card_container {
+    justify-content: center;
+    align-items: center;
+  }
+}

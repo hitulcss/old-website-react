@@ -1,0 +1,276 @@
+.wallet_wrapper {
+  padding: 1.5rem;
+  background: #fff;
+  min-height: 92vh;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.close-button:hover {
+  color: red;
+}
+
+.wallet_balance {
+  background: #fff8e5;
+  border-radius: 10px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 10px 1px rgba(74, 74, 74, 0.1);
+}
+
+.wallet_balance > img {
+  width: 8rem;
+}
+
+.wallet_left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.wallet_left > h1 {
+  font-size: 2rem;
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+
+.wallet_left > h2 {
+  font-size: 1.3rem;
+}
+
+.wallet_left > button {
+  background: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  color: #fff;
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.wallet_modal_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wallet_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.help_friends {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /* box-shadow: 1px 2px 10px 1px rgba(88, 88, 88, 0.1); */
+  border: 1px solid #efefef;
+}
+
+.help_friends_left > img {
+  width: 5rem;
+}
+
+.help_friends_left {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  width: 55%;
+  color: var(--textGray);
+}
+
+.help_friends_left > h2 {
+  width: 60%;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+}
+
+.wallet_icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.wallet_descrip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--textGray);
+}
+
+.wallet_info_icon {
+  font-size: 1.5rem;
+}
+
+.wallet_descrip > p {
+  width: 70%;
+}
+
+.transaction_wrapper > h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.transction_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.transaction_history_box {
+  /* box-shadow: 1px 2px 10px 1px rgba(38, 38, 38, 0.1); */
+  border: 1px solid #efefef;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #fff;
+}
+
+.transaction_left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--textGray);
+}
+
+.transaction_left > img {
+  width: 3.5rem;
+}
+
+.rewardtitle {
+  font-weight: 600;
+  color: #000;
+}
+
+.reward_date {
+  font-size: 0.8rem;
+}
+
+.transaction_left > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.transaction_right {
+  font-size: 1.5rem;
+  color: #1e7026;
+}
+
+.reward_via {
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .wallet_container {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .wallet_wrapper {
+    padding: 1rem;
+  }
+
+  .transaction_wrapper > h2 {
+    font-size: 1.2rem;
+  }
+
+  .wallet_balance {
+    padding: 1rem 1.2rem;
+  }
+
+  .wallet_left {
+    gap: 12px;
+  }
+
+  .help_friends {
+    padding: 1rem;
+  }
+
+  .help_friends_left {
+    gap: 15px;
+    width: 90%;
+  }
+
+  .help_friends_left > h2 {
+    font-size: 1rem;
+  }
+
+  .help_friends_left > img {
+    width: 3rem;
+  }
+
+  .transaction_history_box {
+    padding: 1.3rem;
+  }
+
+  .transaction_left > img {
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .transaction_left {
+    gap: 15px;
+  }
+
+  .wallet_left {
+    font-size: 0.8rem;
+  }
+
+  .wallet_balance > img {
+    width: 4rem;
+  }
+
+  .wallet_left > h1 {
+    font-size: 1.8rem;
+  }
+
+  .wallet_left > h2 {
+    font-size: 1.1rem;
+  }
+
+  .help_friends_left > h2 {
+    font-size: 0.9rem;
+  }
+}

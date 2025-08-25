@@ -1,0 +1,9 @@
+.selecton_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.selection_container > h1 {
+  color: rgba(10, 75, 122, 1);
+  text-align: center;
+}

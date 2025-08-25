@@ -1,0 +1,250 @@
+.quiz_descrip_container > img {
+  width: 100%;
+}
+
+.quiz_descrip {
+  margin-bottom: 2rem;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.quiz_lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.quiz_descrip_mid {
+  margin-top: 1rem;
+  padding: 20px;
+}
+
+.quiz_descrip_mid > div > p {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.quiz_box_title {
+  padding: 20px;
+}
+
+.quiz_lower_left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.quiz_lower_left img {
+  width: 2.5rem;
+}
+
+.quiz_lower_left_box {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  background: #f5e6fe;
+  padding: 13px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.quiz_lower_right {
+  padding: 1rem 2rem;
+}
+
+.quiz_lower_right > button {
+  border: none;
+  outline: none;
+  padding: 0.7rem 2rem;
+  background: var(--primaryColor);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .quiz_lower_left_box > p {
+    font-size: 0.9rem;
+  }
+
+  .quiz_lower_left_box > img {
+    width: 2rem;
+  }
+
+  .quiz_lower_left_box {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quiz_lower_left_box > p {
+    font-size: 0.9rem;
+  }
+
+  .quiz_lower_left_box > img {
+    width: 2rem;
+  }
+
+  .quiz_lower_left_box {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .quiz_lower {
+    padding: 10px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .quiz_lower_left_box {
+    gap: 0.3rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  .quiz_lower_left_box > p {
+    font-size: 0.7rem;
+  }
+
+  .quiz_lower_right > button {
+    padding: 0.7rem 1.8rem;
+    font-size: 0.8rem;
+  }
+
+  .quiz_lower_right {
+    padding: 15px;
+  }
+
+  .quiz_lower_left {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .quiz_lower {
+    padding: 6px;
+  }
+
+  .quiz_lower_left_box {
+    gap: 0.3rem;
+    padding: 8px 12px;
+  }
+
+  .quiz_lower_left_box > p {
+    font-size: 0.6rem;
+  }
+
+  .quiz_lower_right > button {
+    padding: 0.6rem 1.7rem;
+    font-size: 0.7rem;
+  }
+
+  .quiz_lower_right {
+    padding: 15px;
+  }
+
+  .quiz_lower_left_box > img {
+    width: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .quiz_lower {
+    padding: 10px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .quiz_lower_left_box {
+    gap: 0.3rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  .quiz_lower_left_box > p {
+    font-size: 0.7rem;
+  }
+
+  .quiz_lower_right > button {
+    padding: 0.7rem 1.8rem;
+    font-size: 0.8rem;
+  }
+
+  .quiz_lower_right {
+    padding: 15px;
+  }
+
+  .quiz_lower_left {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .quiz_lower {
+    padding: 6px;
+  }
+
+  .quiz_lower_left_box {
+    gap: 0.3rem;
+    padding: 8px 12px;
+  }
+
+  .quiz_lower_left_box > p {
+    font-size: 0.6rem;
+  }
+
+  .quiz_lower_right > button {
+    padding: 0.6rem 1.7rem;
+    font-size: 0.7rem;
+  }
+
+  .quiz_lower_right {
+    padding: 15px;
+  }
+
+  .quiz_lower_left_box > img {
+    width: 1.5rem;
+  }
+}
+
+.modal-full-screen {
+  height: 99vh;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  background-color: rgba((1, 1, 1, 0.3), green, blue, alpha);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-full-screen > button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--primaryColor);
+  border-radius: 10px;
+  font-size: 20px;
+}

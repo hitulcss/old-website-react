@@ -1,0 +1,56 @@
+.counseling-wrapper {
+  padding: 1rem 2rem;
+  flex-direction: column;
+  margin-top: -1rem;
+  height: 70vh;
+}
+
+.counseling-left > h1 {
+  font-size: 1.1rem;
+}
+.counseling-left > p {
+  font-size: 0.9rem;
+}
+
+.counseling-input-box {
+  width: 100%;
+  padding: 6px 12px;
+}
+.counseling-right > img {
+  width: 15rem;
+  margin-top: 1rem;
+}
+
+.counseling-left {
+  width: 100%;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.counseling-call > button {
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.contact_call {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.counseling-call {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.counseling-phone {
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .counseling-left > h1 {
+    font-size: 1rem;
+  }
+}

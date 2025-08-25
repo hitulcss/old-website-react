@@ -1,0 +1,111 @@
+.mycourses_wrapper {
+  background: #fff;
+  min-height: 90vh;
+  margin-top: 10px;
+}
+
+.mycourses_wrapper > img {
+  width: 100%;
+}
+
+.mycourses > h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.youtube_free_courses {
+  padding: 1rem;
+  margin-top: -3rem;
+}
+
+.mycourse_container {
+  /* width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem 10px;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.batch-expire-text {
+  display: flex;
+  align-items: center !important;
+  gap: 5px;
+  color: #ff0000 !important;
+}
+
+.lock-timer {
+  font-size: 1rem !important;
+}
+.mycourses_box {
+  width: 282px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 1rem;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  /* height:300px; */
+}
+
+.mycourses_box > img {
+  max-height: 150px;
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.mycourse_description > h2 {
+  font-size: 1.1rem;
+  overflow-x: hidden;
+}
+
+.mycourses_box > div > button {
+  outline: none;
+  border: none;
+  background: var(--primaryColor);
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.recommended_courses {
+  margin-top: 2rem;
+}
+
+.mycourse_description > p {
+  display: flex;
+  font-size: 11.5px;
+  color: var(--textGray);
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+@media (max-width: 375px) {
+  .after-login-mycourses-tab {
+    font-size: 14px !important;
+  }
+}

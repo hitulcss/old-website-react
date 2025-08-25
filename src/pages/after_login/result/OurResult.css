@@ -1,0 +1,125 @@
+.our-result-wrapper {
+  padding: 1.5rem;
+}
+
+.banner-result > img {
+  width: 100%;
+}
+
+.thanks-container {
+  margin-top: 2rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.thanks-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 50%;
+}
+
+.thanks-left > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 1.5rem;
+  border: none;
+  background: var(--primaryColor);
+  color: #fff;
+  border-radius: 5px;
+  width: 60%;
+  cursor: pointer;
+}
+
+.result-tab-container > div > div {
+  justify-content: space-between !important;
+}
+
+.result-tab-main {
+  box-shadow: 1px 2px 10px 1px rgba(88, 88, 88, 0.1);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.result-tab-upper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 1rem;
+}
+
+.result-tab-upper > h1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.thanks-right > img {
+  width: 21rem;
+}
+
+.thanks-left > h2 {
+  text-transform: capitalize;
+}
+
+/* .css-1gsv261 {
+  border: none !important;
+} */
+
+@media (max-width: 768px) {
+  .thanks-right > img {
+    width: 18rem;
+  }
+  .thanks-left > h2 {
+    font-size: 1.4rem;
+  }
+
+  .thanks-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 60%;
+  }
+
+  .thanks-left > button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .result-tab-upper > h1 {
+    font-size: 1.2rem;
+  }
+  .thanks-container {
+    flex-direction: column;
+  }
+
+  .thanks-left {
+    width: 100%;
+  }
+  .thanks-left > h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .thanks-right > img {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .thanks-left > button {
+    font-size: 0.7rem;
+    padding: 13px;
+  }
+
+  .thanks-right > img {
+    width: 12rem;
+  }
+}

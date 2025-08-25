@@ -1,0 +1,15 @@
+.doubt-privacy-policy-content {
+  padding: 15px;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
+.doubt-privacy-policy-content > p {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.doubt-privacy-policy-content > div > div p {
+  margin-bottom: 6px;
+}

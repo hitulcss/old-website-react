@@ -1,0 +1,100 @@
+.parents_wrapper {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.parents_header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.parents_header > p {
+  color: var(--textGray);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.plan_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: 1rem;
+}
+
+.plan_box {
+  border: 1px solid #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding: 1.3rem;
+  text-align: center;
+  height: 380px;
+}
+
+.plan_box > img {
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.plan_box > p {
+  color: var(--textGray);
+}
+
+@media (max-width: 768px) {
+  .plan_container {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+
+  .plan_box {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .plan_box {
+    width: 400px;
+  }
+
+  .parents_header > h1 {
+    font-size: 1.5rem;
+  }
+
+  .parents_header > p {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .plan_box > p {
+    font-size: 0.9rem;
+  }
+
+  .plan_box > h2 {
+    font-size: 1.4rem;
+  }
+
+  .plan_box > img {
+    width: 6rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .plan_box {
+    width: 350px;
+  }
+}
+
+@media (max-width: 350px) {
+  .plan_box {
+    width: 300px;
+  }
+}

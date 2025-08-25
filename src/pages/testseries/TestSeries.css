@@ -1,0 +1,21 @@
+/* .test_series_page_cont {
+    width: 100%;
+} */
+
+
+.test_series_category {
+    width: 100%;
+    /* overflow-x: scroll; */
+}
+
+.live_test_quiz {
+    width: 100%;
+}
+
+
+@media (max-width: 400px) {
+    .test_series_page_cont {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}

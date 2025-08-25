@@ -1,0 +1,39 @@
+.category-ebook-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-header > h1 {
+  font-size: 1.8rem;
+}
+
+.category-header > a > p {
+  color: var(--primaryColor);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.ebook-page-filter {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.ebook-page-filter > p {
+  background: #f2ecff;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+  cursor: pointer;
+}

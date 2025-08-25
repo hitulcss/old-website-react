@@ -1,0 +1,92 @@
+.ugc_net_wrapper {
+  margin-top: 1rem;
+}
+
+.ugc_net_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(10, 75, 122, 1);
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.ugc_net_right > img {
+  width: 80%;
+}
+
+.ugc_net_left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.ugc_net_left > p {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.ugc_net_left > h1 {
+  font-size: 1.7rem;
+}
+
+.ugc_net_left > button {
+  background: #fff;
+  color: rgba(10, 75, 122, 1);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27%;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.regis_icon {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .ugc_net_container {
+    flex-direction: column;
+  }
+
+  .ugc_net_left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ugc_net_right > img {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ugc_net_right > img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .ugc_net_left {
+    text-align: center;
+  }
+
+  .ugc_net_left > button {
+    width: 50%;
+  }
+  .ugc_net_right > img {
+    width: 90%;
+  }
+}

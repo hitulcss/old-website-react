@@ -1,0 +1,28 @@
+.twoway-info-container {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-upper > h1 {
+  font-size: 1.7rem;
+}
+
+.info-lower {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--textGray);
+}
+
+@media (max-width: 500px) {
+  .info-upper > h1 {
+    font-size: 1.3rem;
+  }
+
+  .info-lower {
+    font-size: 0.9rem;
+  }
+}

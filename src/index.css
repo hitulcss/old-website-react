@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  overflow-x: none;
+}
+
+:root {
+  --primaryColor: #9603f2;
+  --secondaryColor: #b042f5;
+  --textBlack: #000000;
+  --dimBlack: #333333;
+  --textWhite: #ffffff;
+  --textGray: #626262;
+  --campPrimary: #27005d;
+  --campSecondary: #ff0060;
+  --sectionBg: #ebffcf;
+  --textPrimary: #333333;
+  --textSecondary: #627d98;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.primary_color {
+  color: var(--primaryColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.channel_Container {
+  overflow: auto;
+}
+
+.channel_Container ::-webkit-scrollbar {
+  display: block;
+}
+
+.channel_Container::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+.channel_Container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.channel_Container::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+  border-radius: 12px;
+}
+
+.after_login_channel_Container::-webkit-scrollbar {
+  display: block;
+}
+
+.after_login_channel_Container::-webkit-scrollbar {
+  width: 1px;
+  height: 3px;
+  /* background: var(--primaryColor); */
+}
+
+.after_login_channel_Container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.after_login_channel_Container::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+  border-radius: 12px;
+}
+
+.after_login_channel_Container li {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.css-1r2bn3-JoySvgIcon-rooMuiSvgIcon-root {
+  color: white !important;
+}
+
+.css-fcvhyq-MuiButtonBase-root-MuiButton-root {
+  color: #000000 !important;
+}
+
+.MuiPopover-paper {
+  padding: 6px !important;
+}
+
+.css-18rhzfs {
+  border-radius: 0 !important;
+}
+
+.makeStyles-playerWrapper-1 {
+  border-radius: 8px !important;
+}

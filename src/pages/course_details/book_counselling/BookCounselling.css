@@ -1,0 +1,255 @@
+.book_counselling_wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primaryColor);
+  padding: 0px 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.counselling_leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 70%;
+}
+
+.counselling_leftside > h1 {
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 600;
+  width: 70%;
+}
+
+.counselling_leftside > p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.book_call {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact_call {
+  display: flex;
+  flex-direction: column;
+}
+
+.call_input_box {
+  background: #fff;
+  padding: 8px 20px;
+  display: flex;
+  gap: 1rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  width: 20rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.call_input_box > input {
+  outline: none;
+  border: none;
+  padding: 2px 5px;
+  font-size: 1rem;
+}
+
+.call_input_box > input[type="number"] {
+  width: 100%;
+  font-weight: 500;
+}
+
+.book_call > button {
+  outline: none;
+  border: none;
+  background: #ffb800;
+  padding: 12px 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.book_call > p {
+  color: #fff;
+}
+
+.contact_call {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.or_contact {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+@media (max-width: 920px) {
+  .counselling_leftside > h1 {
+    font-size: 2rem;
+  }
+  .counselling_leftside > p {
+    font-size: 1.1rem;
+  }
+
+  .call_input_box {
+    width: 18rem;
+    padding: 8px 15px;
+  }
+
+  .counselling_rightside > img {
+    width: 22rem;
+  }
+
+  .counselling_leftside {
+    width: 60%;
+  }
+
+  .book_call > button {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .counselling_leftside > h1 {
+    font-size: 1.3rem;
+  }
+  .counselling_leftside > p {
+    font-size: 1rem;
+  }
+
+  .call_input_box {
+    width: 15rem;
+    padding: 8px 12px;
+  }
+
+  .counselling_rightside > img {
+    width: 20rem;
+  }
+
+  .counselling_leftside {
+    width: 90%;
+    gap: 1rem;
+  }
+
+  .book_call > button {
+    padding: 10px 15px;
+  }
+  .book_call {
+    flex-wrap: wrap;
+  }
+
+  .contact_call {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .book_counselling_wrapper {
+    padding: 1rem 2rem;
+    height: 45vh;
+  } */
+
+  .call_input_box > input {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .counselling_leftside > h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .counselling_leftside > p {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .call_input_box {
+    width: 100%;
+    padding: 6px 12px;
+  }
+  .counselling_rightside > img {
+    width: 15rem;
+    margin-top: 3rem;
+  }
+
+  .counselling_leftside {
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .book_call > button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .book_call {
+    align-items: center;
+  }
+
+  .phone_number {
+    font-size: 11px;
+  }
+
+  .contact_call {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .book_counselling_wrapper {
+    padding: 1rem 2rem;
+    flex-direction: column;
+  }
+
+  .counselling_leftside > h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .counselling_leftside > h1 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .counselling_leftside > p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .counselling_rightside > img {
+    width: 14srem;
+    margin-top: 1.5rem;
+  }
+
+  .counselling_leftside {
+    gap: 1rem;
+  }
+
+  .book_call {
+    align-items: center;
+  }
+
+  .phone_number {
+    font-size: 11px;
+  }
+}

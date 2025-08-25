@@ -1,0 +1,73 @@
+.offering-courses-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.offering-courses-container {
+  border: 1px solid #efefef;
+  border-radius: 10px;
+}
+
+.offering-courses-upper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.offering-courses-upper > div > h1 {
+  font-size: 1.4rem;
+}
+
+.offering-courses-upper > div > p {
+  color: var(--textGray);
+  font-size: 0.9rem;
+}
+
+.offering-courses-upper > button {
+  padding: 10px 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 7rem;
+  justify-content: space-between;
+  background: #f2ecff;
+  color: var(--primaryColor);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offering-courses-lower {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .offering-courses-upper > div > h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .offering-courses-lower {
+    padding: 0px;
+  }
+
+  .offering-courses-upper > div > h1 {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .offering-courses-upper > div > p {
+    font-size: 0.8rem;
+    width: 70%;
+  }
+
+  .offering-courses-upper > button {
+    padding: 10px;
+
+    width: 5rem;
+
+    font-size: 0.7rem;
+  }
+}

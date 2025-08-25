@@ -1,0 +1,23 @@
+.privacy_policy {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.privacy_policy_wrapper p {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  color: var(--textGray);
+}
+
+.privacy_policy_wrapper h2 {
+  margin-bottom: 0.8rem;
+}
+
+.personal_data ul {
+  margin-left: 2rem;
+}
+
+.refund_policy > ul {
+  padding: 10px;
+}

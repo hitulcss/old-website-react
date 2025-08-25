@@ -1,0 +1,259 @@
+.center_details_header {
+  background: #f5e6fe;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+}
+
+.course_header_upper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course_header_upper > p {
+  color: var(--textGray);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_icon {
+  color: #000;
+  font-size: 1.3rem;
+}
+
+.center_details_header > h1 {
+  font-weight: 600;
+}
+.center_details_header > p {
+  margin-top: 12px;
+  width: 30%;
+  text-align: center;
+  font-weight: 500;
+  color: var(--textGray);
+}
+
+.center_header_lower {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.right_img_container {
+  padding: 15px;
+}
+
+.right_img_container > img {
+  width: 50%;
+  padding: 8px;
+}
+
+.center_details_container {
+  margin-top: 2rem;
+}
+
+.center_details_container > div > h1 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.about_center {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.about_center > h3 {
+  margin-top: 1rem;
+}
+
+.about_descrip {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--textGray);
+}
+
+.center_why_sd {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.why_sd_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.1rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.sd_container_box {
+  border: 1px solid #dfdfdf;
+  padding: 1.2rem;
+  border-radius: 10px;
+  /* width: 350px; */
+}
+
+.sd_container_box > h2 {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.sd_container_box > img {
+  width: 100%;
+}
+
+.center_why_sd > p {
+  width: 70%;
+  color: var(--textGray);
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.header_img_wrapper {
+  position: relative;
+}
+
+.header_img_info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.header_img_info > p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.header_img_info > button {
+  padding: 10px 1.5rem;
+  background: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .center_details_header > p {
+    width: 50%;
+  }
+
+  .center_header_lower {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .center_details_header > h1 {
+    font-size: 1.3rem;
+  }
+  .center_details_header > p {
+    margin-top: 12px;
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .center_details_header {
+    padding: 1.5rem;
+  }
+
+  .center_details_container > div > h1 {
+    font-size: 1.4rem;
+  }
+
+  .about_center > h1 {
+    font-size: 1.6rem;
+  }
+  .about_center > h3 {
+    font-size: 1rem;
+  }
+
+  .about_descrip {
+    font-size: 0.9rem;
+  }
+
+  .header_img_wrapper > img {
+    width: 100%;
+  }
+  .right_img_container {
+    width: 100%;
+    padding: 0px;
+  }
+  .header_img_info > button {
+    padding: 10px 1.1rem;
+    font-size: 0.8rem;
+  }
+
+  .header_img_info > p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .center_why_sd > h1 {
+    font-size: 1.5rem;
+  }
+
+  .center_why_sd > p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+
+  .sd_container_box > h2 {
+    font-size: 1.1rem;
+  }
+
+  .course_header_upper > h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .course_header_upper > p {
+    font-size: 0.8rem;
+  }
+
+  .header_icon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 350px) {
+  .sd_container_box > h2 {
+    font-size: 1rem;
+  }
+
+  .header_img_info > button {
+    padding: 9px 13px;
+    font-size: 0.7rem;
+  }
+
+  .sd_container_box {
+    width: 90%;
+  }
+}

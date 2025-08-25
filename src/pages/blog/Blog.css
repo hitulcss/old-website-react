@@ -1,0 +1,22 @@
+.blog {
+  margin-top: 2rem;
+}
+
+.blog_wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 1rem;
+}
+
+.blog_wrapper::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.blog_wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.blog_wrapper::-webkit-scrollbar-thumb {
+  background: transparent;
+}

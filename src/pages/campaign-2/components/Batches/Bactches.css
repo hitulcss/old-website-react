@@ -1,0 +1,52 @@
+.batches-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.batches-upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-view-btn {
+  display: none;
+}
+
+.batch-btn {
+  border: none;
+  padding: 13px 1.5rem;
+  color: #fff;
+  background: var(--campSecondary);
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .batches-upper > h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .batches-upper > h1 {
+    font-size: 1.3rem;
+  }
+  .laptop-view-btn {
+    display: none;
+  }
+  .phone-view-btn {
+    display: flex;
+    border: none;
+    padding: 15px 1.5rem;
+    color: #fff;
+    background: var(--campSecondary);
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

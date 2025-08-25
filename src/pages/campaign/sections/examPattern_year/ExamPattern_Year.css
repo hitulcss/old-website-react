@@ -1,0 +1,73 @@
+.exampattern_year_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.exampattern_year_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgba(3, 148, 71, 0.04);
+  padding: 3rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.exampattern_year_upper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.exampattern_year_upper > h2 {
+  color: rgba(3, 148, 71, 1);
+}
+
+.exampattern_year_upper > p {
+  color: rgba(98, 125, 152, 1);
+  line-height: 1.5rem;
+}
+
+.exampattern_year_lower > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--textGray);
+}
+
+.exampattern_year_lower {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+thead > tr > th {
+  font-weight: bold !important;
+  background: rgba(3, 148, 71, 1) !important;
+  color: #fff !important;
+}
+
+.exampattern_year_lower > div > p > span {
+  color: rgba(98, 125, 152, 1);
+  font-weight: 600;
+}
+
+.exampattern_year_lower > div > p {
+  color: rgba(130, 154, 177, 1);
+  font-weight: lighter;
+}
+
+@media (max-width: 500px) {
+  .exampattern_year_container {
+    padding: 1.5rem;
+  }
+
+  .exampattern_year_lower > div > p {
+    font-size: 0.9rem;
+  }
+  .exampattern_year_upper > h2 {
+    font-size: 1.2rem;
+  }
+}

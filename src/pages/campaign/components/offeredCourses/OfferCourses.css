@@ -1,0 +1,11 @@
+.offered_course_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.offered_upper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}

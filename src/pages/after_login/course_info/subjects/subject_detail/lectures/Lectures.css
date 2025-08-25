@@ -1,0 +1,14 @@
+.lecture_wrapper {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    background-color: #fff;
+}
+
+.lecture_container {
+    width: 100%;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,286 @@
+.header-wrapper {
+  background: var(--campPrimary);
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.header-container {
+  /* padding: 2rem 0rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.successs {
+  color: #fff;
+}
+
+.camp-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 55%;
+}
+
+.camp-header-left-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+
+.camp-header-left-upper>h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header-facilities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header-facilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-facilities div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--campSecondary);
+  width: 20rem;
+  padding: 5px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.header-facilities div span {
+  height: 50px;
+  width: 50px;
+  background: var(--campSecondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.header-facilities div span>img {
+  width: 1.3rem;
+}
+
+.header-facilities-container>img {
+  /* width: 50rem;s */
+  width: 90%;
+
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.group-phone {
+  display: none;
+}
+
+.camp-header-right {
+  width: 30%;
+}
+
+.header-form-box {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+}
+
+.header-form-box>h1 {
+  color: var(--campPrimary);
+  font-size: 1.6rem;
+  text-align: center;
+  /* border-bottom: 2px solid var(--campSecondary); */
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 95%;
+}
+
+.form-inputs>input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.header-form-box>button {
+  width: 95%;
+  background: var(--campPrimary);
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.header-form-box>p {
+  font-size: 0.9rem;
+  color: #ff0060;
+  font-weight: bold;
+}
+
+.input-lower {
+  display: flex;
+  gap: 10px;
+}
+
+.input-lower input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.number-container,
+.opt-container {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+.number-container>input,
+.opt-container>input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.cat-select-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sendopt-text,
+.verify-text {
+  font-size: 0.7rem;
+  color: #039447;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.input-sub-btn {
+  outline: none;
+  border: none;
+  padding: 15px;
+
+  width: 100%;
+  background: var(--campPrimary);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.verify-tick-icon {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .camp-header-right {
+    width: 45%;
+  }
+
+  .group-laptop {
+    display: none;
+  }
+
+  .group-phone {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .camp-header-left-upper>h1 {
+    font-size: 1.6rem;
+  }
+
+  .camp-header-left-upper {
+    padding: 1.2rem 0px;
+  }
+
+  .header-facilities {
+    gap: 0.8rem;
+  }
+
+  .header-form-box {
+    margin-top: 1rem;
+  }
+
+  .camp-header-left {
+    width: 45%;
+  }
+}
+
+@media (max-width: 550px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .camp-header-left {
+    width: 100%;
+  }
+
+  .camp-header-left-upper>h1 {
+    font-size: 1.4rem;
+  }
+
+  .camp-header-right {
+    width: 90%;
+  }
+
+  .header-facilities div span {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+  }
+
+  .header-facilities div {
+    gap: 10px;
+    width: 16rem;
+  }
+
+  .header-facilities div span>img {
+    width: 1.1rem;
+  }
+
+  .header-facilities div p {
+    font-size: 0.8rem;
+  }
+
+  .header-form-box>h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-wrapper {
+    width: 111%;
+  }
+}

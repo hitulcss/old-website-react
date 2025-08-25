@@ -1,0 +1,219 @@
+footer {
+  background: var(--campPrimary);
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.descrip > p {
+  font-size: 15px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.upper_part {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.copyright > p {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.upper_left,
+.upper_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.upper_left > p {
+  font-weight: 600;
+  color: var(--campSecondary);
+  font-size: 15px;
+}
+
+.upper_right > p {
+  font-weight: 600;
+  color: var(--campSecondary);
+  font-size: 15px;
+}
+
+.upper_right > a > p {
+  font-weight: 600;
+  color: var(--campSecondary);
+  font-size: 15px;
+}
+
+.upper_right .whatsapp {
+  font-size: 35px !important;
+  color: #55d66f;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.socials > a {
+  border: 1px solid var(--campSecondary);
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--campSecondary);
+  transition: all 0.3s ease;
+}
+
+.socials > a:hover {
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+.footer_down {
+  width: 100%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.footer_down .descrip {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.descrip > img {
+  width: 4rem;
+  border-radius: 8px;
+}
+
+.call_us,
+.company,
+.courses-footer,
+.other_courses,
+.policies {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.call_us > h3,
+.company > h3,
+.courses-footer > h3,
+.other_courses > h3,
+.policies > h3 {
+  color: var(--campSecondary);
+  font-size: 17px;
+}
+
+.call_us > p,
+.company > a > p,
+.courses-footer > a > p,
+.other_courses > a > p,
+.policies > a > p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 940px) {
+  .upper_left > p {
+    font-weight: 600;
+
+    font-size: 14px;
+  }
+
+  .upper_right > p {
+    font-weight: 600;
+
+    font-size: 14px;
+  }
+
+  .socials {
+    gap: 0.8rem;
+  }
+
+  .footer_down {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .upper_left,
+  .upper_right {
+    gap: 1rem;
+  }
+
+  .upper_part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .upper_left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_down {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .descrip > img {
+    width: 4rem;
+  }
+
+  .call_us > h3,
+  .company > h3,
+  .courses-footer > h3,
+  .other_courses > h3,
+  .policies > h3 {
+    font-size: 16px;
+  }
+
+  .call_us > p,
+  .company > a > p,
+  .courses-footer > a > p,
+  .other_courses > a > p,
+  .policies > a > p {
+    font-size: 14px;
+  }
+
+  .descrip > p {
+    font-size: 15px;
+  }
+}
+
+.copyright {
+  padding: 10px 0px 5px 0px;
+}
+
+.copyright > p {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 320px) {
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+  }
+}

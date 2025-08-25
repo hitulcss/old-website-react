@@ -1,0 +1,82 @@
+.slick-slider > .slik-prev {
+  background: blue !important;
+}
+
+.banner_slider > a > img {
+  max-height: 40vh;
+  width: 100%;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.left_arrow,
+.right_arrow {
+  position: absolute;
+  cursor: pointer;
+  font-size: 35px;
+  z-index: 100;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  left: 1.5%;
+  transform: translate(-50%, -50%);
+  color: rgb(245, 234, 234);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  right: -2%;
+  transform: translate(-50%, -50%);
+  color: rgb(245, 234, 234);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .left_arrow,
+  .right_arrow {
+    font-size: 50px;
+  }
+
+  .left_arrow {
+    left: 3%;
+  }
+
+  .right_arrow {
+    right: -5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .left_arrow,
+  .right_arrow {
+    position: absolute;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .left_arrow {
+    left: 3%;
+  }
+
+  .right_arrow {
+    right: -5%;
+  }
+}
+
+@media (max-width: 550px) {
+  .left_arrow,
+  .right_arrow {
+    display: none;
+  }
+
+  .banner_slider > a > img {
+    height: 17vh;
+  }
+}

@@ -1,0 +1,50 @@
+.exam_title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dimBlack);
+}
+
+.exams_top_courses {
+  margin-top: 2rem;
+}
+
+.lower_blog_section {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.lower_blog_left {
+  width: 65% !important;
+}
+
+.lower_blog_right {
+  width: 30%;
+  margin-left: 1.5rem;
+}
+
+.exams_top_courses {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+  .lower_blog_right {
+    display: none;
+  }
+
+  .exam_title {
+    font-size: 1.3rem;
+  }
+  .lower_blog_left {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .lower_blog_left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

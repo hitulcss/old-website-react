@@ -1,0 +1,264 @@
+.doubt-detail-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 41rem;
+  background: #fff;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.doubt-detail {
+  z-index: 1;
+  position: relative;
+}
+
+.doubt-detail-parent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+.detail-post-title {
+  /* display: flex; */
+  align-items: center;
+  gap: 6px;
+}
+
+.upload-pic-icon {
+  font-size: 1.3rem;
+  cursor: pointer !important;
+  color: var(--textGray);
+}
+
+.doubt-detail-title {
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.doubt-detail-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.doubt-detail-lower {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.doubt-detail-lower,
+.doubt-detail-cmnts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.doubt-detail-cmnts {
+  margin-bottom: -15px;
+}
+
+.main-comments {
+  overflow-y: scroll;
+  height: 14rem;
+}
+
+.doubt-detail-cmnts > h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.doubt-detail-cmnts {
+  padding: 15px;
+}
+
+.doubt-detail-cmnt-section {
+  width: 100%;
+  display: flex;
+  background: #f2ecff;
+  padding: 1rem;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+}
+
+.post-edit {
+  font-size: 1rem;
+}
+
+.post-delete {
+  font-size: 1rem;
+}
+
+.doubt-detail-input-container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  border-radius: 25px;
+  padding: 6px 10px;
+}
+
+.post-comments-user-comment-box {
+  width: 100%;
+}
+
+.post-comments-user-comment-box > input {
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+}
+
+.cmnt-with-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cmnt-with-img img {
+  width: 100%;
+  height: 10rem;
+}
+
+.doubt-detail-btn-container {
+  background: var(--primaryColor);
+  width: 44px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.detail-cmnt-box {
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row !important;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.doubt-cmnt-box-icon {
+  cursor: pointer;
+}
+
+.post-comments-user-replies {
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+  font-size: 0.8rem;
+}
+
+.reply-action-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: gray;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.reply-action-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: gray;
+}
+
+.reply-to {
+  text-align: left;
+  width: 100%;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.reply-to > p {
+  background-color: var(--primaryColor);
+  padding: 12px 2rem;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 10000;
+  color: #fff;
+}
+
+.reply-to > p > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reply-close-icon {
+  font-size: 1.2rem;
+}
+
+.cmnt-img-container {
+  height: 10rem;
+  background: #fff;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #efefef;
+  position: fixed;
+  z-index: 1000;
+  bottom: 13%;
+}
+
+.cmnt-img-container {
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-preview-container > img {
+  width: 100%;
+  object-fit: contain;
+  /* height: 10rem; */
+}
+
+@media (max-width: 768px) {
+  .doubt-detail-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .doubt-detail-title > h2 {
+    font-size: 1.2rem;
+  }
+
+  .doubt-detail-btn-container {
+    width: 55px;
+  }
+}
+
+@media (max-width: 350px) {
+  .doubt-detail-btn-container {
+    width: 70px;
+  }
+
+  .upload-pic-icon {
+    font-size: 1.1rem;
+    margin-right: -0.5rem;
+  }
+}

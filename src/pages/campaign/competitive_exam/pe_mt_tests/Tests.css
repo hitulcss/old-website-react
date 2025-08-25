@@ -1,0 +1,26 @@
+.syllabus_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.syllabus_container > h1 {
+  color: rgba(10, 75, 122, 1);
+}
+
+.tests_upper {
+  padding: 1rem;
+  background: rgba(133, 48, 125, 0.08);
+  color: rgba(133, 48, 125, 1);
+  margin-top: 2rem;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+}
+
+.tests_upper > h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.tests-table {
+  margin-top: -5px;
+}

@@ -1,0 +1,85 @@
+.exams_search {
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hover-menu {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown_menus {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 150;
+  width: 50rem;
+  height: 30rem;
+}
+
+.menu-items div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-items div:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown_menus {
+  display: flex !important;
+}
+
+.menu-items > p {
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.nested_menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .dropdown_menus {
+    left: 10%;
+    height: 25rem;
+    width: 40rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .exams_search {
+    display: none;
+  }
+
+  .li_exams {
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    /* margin-left: 15px !important; */
+  }
+
+  .menu_section > ul {
+    /* height: 18rem !important; */
+    overflow: scroll;
+  }
+}

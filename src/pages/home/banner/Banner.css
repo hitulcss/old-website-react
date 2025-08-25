@@ -1,0 +1,101 @@
+.banner a > img {
+  /* width: 20rem; */
+  width: 100%;
+
+  /* height: 65vh; */
+}
+
+.banner {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slick-slider > .slik-prev {
+  background: blue !important;
+  overflow: hidden;
+}
+
+.banner a > img {
+  position: relative;
+  width: 100%;
+}
+
+.banner > p > img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.left_arrow,
+.right_arrow {
+  position: absolute;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.left_arrow,
+.right_arrow {
+  color: white;
+  z-index: 100;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  right: -2%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .left_arrow,
+  .right_arrow {
+    font-size: 30px;
+  }
+
+  .left_arrow {
+    left: 3%;
+  }
+
+  .right_arrow {
+    right: -5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .left_arrow,
+  .right_arrow {
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .left_arrow {
+    left: 3%;
+  }
+
+  .right_arrow {
+    right: -5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .left_arrow,
+  .right_arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.descrip_mid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--textGray);
+}
+
+.left_descrip,
+.right_descrip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--textGray);
+}
+
+.purchase-lec-banner {
+  /* width: 7rem !important; */
+}
+
+.faculty_icon {
+  width: 60px;
+  /* height: 120px; */
+  float: right;
+}

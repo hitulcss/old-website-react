@@ -1,0 +1,163 @@
+.main-wrapper {
+  padding: 1rem 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn {
+  cursor: pointer;
+}
+
+.back-arrow-btn {
+  font-size: 1.5rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 45rem;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* .learning-box {
+  display: flex;
+  gap: 1rem;
+} */
+
+.slider-container {
+  height: 100%;
+}
+
+.learning-box {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* .learning-img-container > img {
+  width: 25rem;
+  border-radius: 20px;
+} */
+
+.learning-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1rem;
+  margin-left: 10px;
+}
+
+.learnin-box-right-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  color: #000;
+  cursor: pointer;
+}
+
+.micro-learning-icon {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.learnig-descrip {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  bottom: 17px;
+  padding: 15px;
+  color: #fff;
+}
+
+.learnig-descrip > div > img {
+  width: 2rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.learnig-descrip > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.learnig-descrip > div > h2 {
+  font-size: 1rem;
+}
+
+.video_title {
+  font-size: 0.7rem;
+}
+
+.up-arrow-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 43%;
+  cursor: pointer;
+  margin-top: 5px;
+  z-index: 2000;
+}
+
+.up-arrow-container img,
+.down-arrow-container img {
+  width: 8rem;
+}
+
+.down-arrow-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  left: 43%;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .learning-box {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .up-arrow-container img,
+  .down-arrow-container img {
+    display: none;
+  }
+
+  .main-wrapper {
+    padding: 0rem 0rem;
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-wrapper {
+    padding: 8px;
+  }
+
+  .micro-learning-icon {
+    color: #fff;
+  }
+}
+
+@media (max-width: 350px) {
+  .learning-box {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+
+  .learning-box {
+    height: 75vh;
+    scroll-snap-align: start;
+  }
+}

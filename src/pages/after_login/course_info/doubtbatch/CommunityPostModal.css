@@ -1,0 +1,193 @@
+.doubt-post-parent {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.post-details-left {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.doubt-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.doubt-status-resolve {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  background: #c9ffce;
+  color: #008000;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.doubt-status-pending {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  background: #ffbc0d;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.feed_icon {
+  cursor: pointer;
+}
+
+.post-details-left-batch-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-details-left-batch-name {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.post-details-left-user-name {
+  color: #333333b4;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.post-title {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 20px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.2rem;
+
+  overflow-y: scroll;
+}
+
+.post-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding: 1rem;
+  background: #f2ecff;
+}
+
+.post-content > img {
+  width: 100%;
+  cursor: pointer;
+  height: 25rem;
+  object-fit: contain;
+}
+
+.post-comments {
+  padding: 1.5rem 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.doubt_icon {
+  color: var(--textGray);
+  font-size: 1.2rem !important;
+}
+
+/* {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2ecff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 5px;
+} */
+
+.post-comments-user-name {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.post-comments-user-comment {
+  color: rgb(97, 96, 96);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.doubt_icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--dimBlack);
+}
+
+.doubt-comment,
+.doubt-view,
+.doubt-like {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.heart {
+  color: red;
+}
+
+@media (max-width: 550px) {
+  .doubt-post-parent {
+    width: 95%;
+  }
+
+  .post-content > img {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+  }
+
+  .post-details-left-batch-name {
+    font-size: 12px;
+  }
+
+  .doubt-status-resolve {
+    font-size: 0.7rem;
+    border-radius: 3px;
+  }
+
+  .doubt-status-pending {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    background: #ffbc0d;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 3px;
+  }
+}

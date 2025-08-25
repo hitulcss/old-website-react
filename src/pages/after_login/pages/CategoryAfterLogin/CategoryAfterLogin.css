@@ -1,0 +1,5 @@
+.category-after-login {
+  padding: 1rem 10px;
+  height: 90vh;
+  overflow-y: scroll;
+}

@@ -1,0 +1,42 @@
+.vacancy_wrapper {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.vacancy_container {
+  background: rgba(10, 75, 122, 0.04);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.vacancy_container > h1 {
+  color: rgba(10, 75, 122, 1);
+  text-align: center;
+}
+
+.vacancy-table-container {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+  background: #fff;
+}
+
+.vacancy-table-container th,
+.vacancy-table-container td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.vacancy-table-container tr {
+  border-radius: 10px;
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.vacancy-table-container th {
+  background-color: #f2f2f2;
+}
+
+.vacancy-table-container > tbody {
+  margin-top: 2rem;
+}

@@ -1,0 +1,102 @@
+.access-container {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.access-upper {
+  padding: 1rem;
+}
+
+.access-upper > h1 {
+  font-size: 1.4rem;
+}
+
+.access-upper > p {
+  color: var(--textGray);
+  font-size: 0.9rem;
+}
+
+.access-lower {
+  padding: 1rem;
+}
+
+.access-box-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.access-box-upper > img {
+  width: 3rem;
+}
+
+.access-lower {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.access-lower::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.access-lower::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.access-lower::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.access-box {
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20rem;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.access-arrow-icon {
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+}
+
+.access-box-lower > h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.access-box-lower > p {
+  color: var(--textGray);
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+}
+
+@media (max-width: 550px) {
+  .access-upper > h1 {
+    font-size: 1.1rem;
+  }
+
+  .access-box-lower > h2 {
+    font-size: 1rem;
+  }
+
+  .access-upper > p {
+    font-size: 0.8rem;
+  }
+
+  .access-box-upper > img {
+    width: 2.5rem;
+  }
+}

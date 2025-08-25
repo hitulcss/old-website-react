@@ -1,0 +1,84 @@
+.today_classes_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1.5rem;
+}
+
+.today_classes_container::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.today_classes_container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.today_classes_container::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.today_class_box {
+  flex-direction: column;
+  min-width: 230px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #eee;
+}
+.class-live {
+  background: red;
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+.class_descrip {
+  width: 100%;
+}
+
+.class_descrip > h2 {
+  text-wrap: wrap;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.today_class_box > img {
+  width: 100%;
+}
+
+.join-today-class > button {
+  cursor: pointer;
+  background: var(--primaryColor);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+}
+
+.join-class-icon {
+  font-size: 10px;
+}
+
+.class-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.class-time > p {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--textGray);
+  gap: 5px;
+}

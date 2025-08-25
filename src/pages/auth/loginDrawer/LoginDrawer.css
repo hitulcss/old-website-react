@@ -1,0 +1,76 @@
+.login-drawwer-upper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 1rem;
+}
+
+.login-drawer,
+.otp-drawer,
+.name-drawer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-drawer > img,
+.otp-drawer > img,
+.name-drawer > img {
+  width: 50%;
+}
+
+.login-wrapper-lower,
+.otp-drawer-lower,
+.name-drawer-lower {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+  margin-bottom: 0px !important;
+}
+
+.css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+  margin-top: 0px !important;
+}
+
+.otp-drawer-lower > img {
+  width: 60%;
+}
+
+.login-wrapper-lower > h1 {
+  font-size: 1.8rem;
+}
+
+.login-wrapper-lower > p {
+  color: var(--textGray);
+  font-size: 1.1rem;
+}
+
+.send-otp-btn {
+  background: var(--primaryColor);
+  color: #fff;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login_bottom_text {
+  text-align: center;
+  font-size: 0.9rem;
+}

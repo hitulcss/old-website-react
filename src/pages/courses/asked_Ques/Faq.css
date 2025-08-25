@@ -1,0 +1,24 @@
+.FAQ_accordion {
+  margin-top: 1.5rem;
+}
+
+.FAQ_wrapper > h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .FAQ_wrapper > h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .FAQ_wrapper > h1 {
+    font-size: 22px;
+  }
+
+  .FAQ_wrapper > h1 {
+    font-size: 1.2rem;
+  }
+}

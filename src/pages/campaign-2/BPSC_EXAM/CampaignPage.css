@@ -1,0 +1,10 @@
+.top-educators-wrapper-c2 {
+  background: var(--campPrimary);
+  margin-top: 2rem;
+}
+
+@media (max-width: 350px) {
+  .top-educators-wrapper-c2 {
+    width: 111%;
+  }
+}

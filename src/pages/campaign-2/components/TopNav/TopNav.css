@@ -1,0 +1,74 @@
+.alert-wrapper {
+  background: var(--campSecondary);
+  width: 100%;
+}
+.alert-header {
+  padding: 5px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.top-nav-btn-wrapper {
+  background: var(--campPrimary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.top-nav-btn-wrapper > button {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.alert_msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0px 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.alert_msg > img {
+  width: 1.2rem;
+  width: 1rem;
+}
+
+@media (max-width: 768px) {
+  .alert-header {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .top-nav-btn-wrapper {
+    font-size: 0.6rem;
+  }
+  .top-nav-btn-wrapper > button {
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+  }
+
+  .alert_msg > p {
+    font-size: 0.8rem;
+  }
+}

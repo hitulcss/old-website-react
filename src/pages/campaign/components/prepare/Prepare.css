@@ -1,0 +1,25 @@
+.prepare_wrapper {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.prepare_accordian {
+  margin-top: 2rem;
+}
+
+.prepare_container > h1 {
+  color: rgba(10, 75, 122, 1);
+  text-align: center;
+}
+
+.accor-details {
+  width: 95%;
+  margin: 0 auto;
+  color: rgba(51, 51, 51, 0.75);
+}
+
+#panel1-header {
+  color: rgba(51, 51, 51, 1);
+  font-weight: 600;
+}

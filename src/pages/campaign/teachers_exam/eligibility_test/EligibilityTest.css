@@ -1,0 +1,35 @@
+.teacher_eligibility_wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.teacher_eligibility_container {
+  padding: 2rem;
+}
+
+.teacher_eligibility_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.teacher_eligibility_container > h1 {
+  color: rgba(10, 75, 122, 1);
+}
+
+.teacher_eligibility_container > p {
+  color: rgba(51 51, 51, 0.75);
+
+  margin: 0 auto;
+}
+
+.eligibility_table {
+  margin-top: 2rem;
+}
+
+.eligibility_table > h2 {
+  text-align: center;
+  color: rgba(189, 32, 46, 1);
+  background: rgba(189, 32, 46, 0.06);
+  padding: 10px;
+}

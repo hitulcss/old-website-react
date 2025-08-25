@@ -1,0 +1,110 @@
+.main-wrapper {
+  position: relative;
+}
+
+.hero_section {
+  width: 100%;
+}
+
+.explore_learning {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.top_courses {
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+}
+
+.quality_courses_section {
+  background: #f5e6fe;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.top_educators {
+  background: #f4e6fe;
+  margin-top: 2rem;
+}
+
+.why_sd_section {
+  margin-top: 6rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+}
+
+.USP_section {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.popular_exams {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.our_students_parents_love {
+  /* margin-top: 7rem; */
+  background: #f4e6fe;
+  margin-top: 4rem;
+}
+
+.campus_center_section {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.results_section {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonials_section {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.refer_section {
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.free_learning_section {
+  width: 100%;
+  background: #f4e6fe;
+}
+
+.learning_junction_section {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+.home-scroll::-webkit-scrollbar {
+  width: 12px !important;
+  background: var(--primaryColor) !important;
+  height: 10px !important;
+}
+
+.home-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+.email-notifi-home-page {
+  position: fixed;
+  right: 30px;
+  top: 50px;
+  z-index: 1000;
+}

@@ -1,0 +1,49 @@
+.player_bottom_controls {
+  /* background-color: blueviolet; */
+  display: flex;
+}
+
+.player_bottom_controls > span > button {
+  color: #fff;
+  align-items: center;
+}
+
+.player_bottom_controls > span > button:hover {
+  color: #fff;
+  margin-right: 2px;
+}
+
+.settings_box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  /* gap: 10px; */
+  top: -100%;
+  border-radius: 5px;
+  /* box-shadow: 0.5px 0.5px 0.5px 0.5px lightgray; */
+}
+
+.settings_box > li {
+  padding: 4px 8px;
+  position: relative;
+}
+
+.speed_dropdown {
+  position: absolute;
+  top: 70%;
+  right: 2%;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 50px;
+  z-index: 99;
+  font-size: 13px !important;
+  max-width: 55px;
+  text-align: left;
+}
+
+.MuiSlider-root {
+  padding: 13px 0 !important;
+}

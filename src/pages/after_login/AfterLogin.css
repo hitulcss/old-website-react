@@ -1,0 +1,42 @@
+.after_login_rightside {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.after-login-mycourse-tab {
+  box-shadow: 1px 2px 10px 1px rgba(88, 88, 88, 0.1);
+  border-radius: 8px;
+  padding: 0 15px;
+  position: sticky;
+  width: 100%;
+  background: #fff;
+}
+
+.after-login-mycourse-tab > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.after-login-mycourse-tab > div > h1 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  padding: 5px 18px;
+}
+
+.after-login-course-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+@media (max-width: 550px) {
+  .after-login-mycourse-tab > div > h1 {
+    font-size: 1.2rem;
+  }
+
+  .after-login-course-icon {
+    font-size: 1.2rem;
+  }
+}

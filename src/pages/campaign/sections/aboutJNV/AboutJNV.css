@@ -1,0 +1,141 @@
+.about_jnv_container {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  background: rgba(133, 48, 125, 0.04);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.about_jnv_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about_jnv_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about_jnv_left > h1 {
+  color: rgba(133, 48, 125, 1);
+  font-size: 1.8rem;
+}
+
+.about_jnv_left > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: rgba(133, 48, 125, 1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.about_jnv_left > p {
+  color: rgba(98, 125, 152, 1);
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  width: 90%;
+}
+
+.counseling-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .about_jnv_container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about_jnv_right > img {
+    margin-bottom: -1rem;
+  }
+
+  .about_jnv_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .about_jnv_left > h1 {
+    font-size: 1.7rem;
+  }
+
+  .counseling-popup {
+    width: 65%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about_jnv_container {
+    padding: 1rem;
+  }
+
+  .counseling-popup {
+    width: 100%;
+    /* top: 40%; */
+  }
+
+  .about_jnv_left > h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .about_jnv_left > p {
+    font-size: 0.9rem;
+  }
+
+  .about_jnv_left > button {
+    width: 70%;
+    padding: 12px 1rem;
+  }
+
+  .about_jnv_right > img {
+    width: 20rem;
+  }
+
+  .about_jnv_left {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .about_jnv_container {
+    padding: 10px;
+  }
+
+  .about_jnv_left > h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .about_jnv_left > p {
+    width: 100%;
+  }
+
+  .about_jnv_left > button {
+    width: 80%;
+    padding: 12px 1rem;
+  }
+}

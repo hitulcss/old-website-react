@@ -1,0 +1,39 @@
+.saved-post-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.saved-particular-video {
+  height: 22rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 550px) {
+  .saved-particular-video {
+    height: 19rem;
+  }
+  .saved-post-parent {
+    justify-content: center;
+  }
+  .saved-box-upper p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .saved-particular-video {
+    height: 17rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .saved-particular-video {
+    height: 14rem;
+  }
+}
